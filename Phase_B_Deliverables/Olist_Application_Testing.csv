@@ -1,0 +1,11 @@
+Test ID,Test Area,Test Scenario,Expected Result,Sample Result,Status
+TC01,Dataset Loading,Load the processed Olist dataset,The dataset loads and displays its columns and records,Dataset loaded successfully with the expected columns,Pass (Simulated)
+TC02,Data Quality,Check missing values in the processed dataset,Missing values are identified and summarised,Missing-value summary generated for review,Pass (Simulated)
+TC03,Duplicate Detection,Check duplicate records,Duplicate records are detected and reported,Duplicate-check report generated,Pass (Simulated)
+TC04,Exploratory Analysis,Display sales and customer analysis charts,Charts and summary statistics are displayed,Analysis outputs are available for review,Pass (Simulated)
+TC05,Customer Segmentation,Display customer clusters,Customer groups and their characteristics are displayed,Cluster summaries are available in the output dataset,Pass (Simulated)
+TC06,Sales Forecasting,Display future sales forecast,Forecast values and available evaluation metrics are displayed,Forecast output is available for visualisation,Pass (Simulated)
+TC07,Predictive Model,Evaluate the low-review prediction model,Evaluation metrics are generated for the test data,"Accuracy, weighted F1-score and other metrics are available for review",Pass (Simulated)
+TC08,Dashboard Launch,Open the Streamlit business dashboard,The dashboard loads without a fatal error,Dashboard loads when dependencies and input files are configured,Pass (Simulated)
+TC09,Model Explainability,Display feature importance and business recommendations,Available model explanation results are displayed,Feature importance can be displayed when a compatible file is loaded,Pass (Simulated)
+TC10,Prediction and Error Handling,Submit valid prediction inputs and check invalid file handling,Valid inputs are processed and incompatible files produce a useful warning,Prediction and warning behaviour require confirmation in the running application,Pending Verification
