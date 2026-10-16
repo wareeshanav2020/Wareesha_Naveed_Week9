@@ -1,0 +1,6 @@
+Actual,Predicted,Correct,Confidence
+0,0,True,0.92
+0,0,True,0.9333333333333333
+0,1,False,0.6066666666666667
+0,0,True,0.9066666666666666
+0,0,True,0.86
