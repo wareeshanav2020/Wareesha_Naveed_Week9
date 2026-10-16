@@ -1,0 +1,8 @@
+check,passed
+orders.order_id unique,True
+customers.customer_id unique,True
+products.product_id unique,True
+sellers.seller_id unique,True
+item order_id non-null,True
+payment order_id non-null,True
+review order_id non-null,True

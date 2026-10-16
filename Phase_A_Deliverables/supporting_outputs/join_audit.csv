@@ -1,0 +1,5 @@
+step,rows_before,rows_after
+orders + customers,99441,99441
+item aggregate,99441,99441
+payment aggregate,99441,99441
+review aggregate,99441,99441
